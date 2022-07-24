@@ -11,19 +11,19 @@ See [API.md](./API.md)
 ### Deps
 
 ```clojure
-io.github.bsless/tools.jcmd.jfr {:mvn/version ""}
+io.github.bsless/tools.jcmd.jfr {:mvn/version "0.0.3"}
 ```
 
 ### Leiningen
 
 ```clojure
-[io.github.bsless/tools.jcmd.jfr ""]
+[io.github.bsless/tools.jcmd.jfr "0.0.3"]
 ```
 
 ## As Tool
 
 ```bash
-clj -Ttools install io.github.bsless/tools.jcmd.jfr '{:local/root "."}' :as jfr
+clj -Ttools install io.github.bsless/tools.jcmd.jfr '{:git/tag "v0.0.3"}' :as jfr
 ```
 
 Then invoke:
