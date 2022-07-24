@@ -1,3 +1,5 @@
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.bsless/tools.jcmd.jfr.svg)](https://clojars.org/io.github.bsless/tools.jcmd.jfr)
+
 # io.github.bsless/tools.jcmd.jfr
 
 Record JFR recordings from within a JVM process or as a tool
