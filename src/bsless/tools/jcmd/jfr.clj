@@ -166,5 +166,4 @@
 
 (comment
   (jcmd 1 "JFR.start" (merge default-options {:name "fizz"}))
-  (def p (record! {:pid 1399098 :name "fizz"}))
   (record! {:filename "spam" :duration 2 :delay 3}))

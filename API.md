@@ -12,7 +12,7 @@
 
 
 Select spec keys in `s` from `opts` and stingify them in `k=v` form.
-<br><sub>[source](https://github.com/bsless/tools.jvm/blob/master/src/bsless/tools/jcmd/jfr.clj#L92-L100)</sub>
+<br><sub>[source](https://github.com/bsless/tools.jcmd.jfr/blob/master/src/bsless/tools/jcmd/jfr.clj#L92-L100)</sub>
 ## `jcmd`
 ``` clojure
 
@@ -21,7 +21,7 @@ Select spec keys in `s` from `opts` and stingify them in `k=v` form.
 
 
 Build process args list for JCMD for `pid`, `command` with `options`.
-<br><sub>[source](https://github.com/bsless/tools.jvm/blob/master/src/bsless/tools/jcmd/jfr.clj#L109-L112)</sub>
+<br><sub>[source](https://github.com/bsless/tools.jcmd.jfr/blob/master/src/bsless/tools/jcmd/jfr.clj#L109-L112)</sub>
 ## `jcmd-options`
 
 Build jcmd options for JFR commands.
@@ -31,9 +31,9 @@ Build jcmd options for JFR commands.
   - `:jcmd.jfr.options/dump`
   - `:jcmd.jfr.options/check`
   
-<br><sub>[source](https://github.com/bsless/tools.jvm/blob/master/src/bsless/tools/jcmd/jfr.clj#L10-L18)</sub>
+<br><sub>[source](https://github.com/bsless/tools.jcmd.jfr/blob/master/src/bsless/tools/jcmd/jfr.clj#L10-L18)</sub>
 ## `p`
-<sub>[source](https://github.com/bsless/tools.jvm/blob/master/src/bsless/tools/jcmd/jfr.clj#L169-L169)</sub>
+<sub>[source](https://github.com/bsless/tools.jcmd.jfr/blob/master/src/bsless/tools/jcmd/jfr.clj#L136-L136)</sub>
 ## `record!`
 ``` clojure
 
@@ -58,4 +58,4 @@ Record with JFR for a finite duration and save to a recording file.
   `:flush-interval` - number.
   `:dumponexit` - dump on VM exit. boolean.
   `:path-to-gc-roots` - record paths to gc roots.
-<br><sub>[source](https://github.com/bsless/tools.jvm/blob/master/src/bsless/tools/jcmd/jfr.clj#L145-L165)</sub>
+<br><sub>[source](https://github.com/bsless/tools.jcmd.jfr/blob/master/src/bsless/tools/jcmd/jfr.clj#L145-L165)</sub>
